@@ -1,0 +1,6 @@
+framework module Pods_WFPaymentComponent_Tests {
+  umbrella header "Pods-WFPaymentComponent_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

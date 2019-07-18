@@ -1,0 +1,1 @@
+../../../../../WFPaymentComponent/Classes/PayTool/wechat/WechatAuthSDK.h

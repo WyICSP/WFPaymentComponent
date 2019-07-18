@@ -1,0 +1,23 @@
+PODS:
+  - AlipaySDK-iOS (15.5.9)
+  - WFPaymentComponent (0.1.0):
+    - AlipaySDK-iOS
+
+DEPENDENCIES:
+  - WFPaymentComponent (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AlipaySDK-iOS
+
+EXTERNAL SOURCES:
+  WFPaymentComponent:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AlipaySDK-iOS: 1c5283b30977a24acecc0114662697f7dc78f618
+  WFPaymentComponent: 5e34b3f042f3e4339f7c4a674f5c256cb3d46ab8
+
+PODFILE CHECKSUM: 03207be2bf6ec9b9e6129183813af0b82e345294
+
+COCOAPODS: 1.7.3

@@ -1,0 +1,6 @@
+framework module WFPaymentComponent {
+  umbrella header "WFPaymentComponent-umbrella.h"
+
+  export *
+  module * { export * }
+}

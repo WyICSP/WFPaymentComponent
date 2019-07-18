@@ -1,0 +1,1 @@
+../../../../../WFPaymentComponent/Classes/PayHeader/WFPaymentHelp.h
