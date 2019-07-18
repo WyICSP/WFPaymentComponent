@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'WFPaymentComponent_Example' do
+  pod 'WFPaymentComponent', :path => '../'
+
+  target 'WFPaymentComponent_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
