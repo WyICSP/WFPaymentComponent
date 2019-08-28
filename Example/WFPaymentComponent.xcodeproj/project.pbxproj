@@ -261,10 +261,9 @@
 			};
 			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "WFPaymentComponent" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				English,
 				en,
 				Base,
 			);
@@ -529,14 +528,12 @@
 			baseConfigurationReference = 21F613882CA9D12BB870D0C9 /* Pods-WFPaymentComponent_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = SDV4DZS8RV;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WFPaymentComponent/WFPaymentComponent-Prefix.pch";
 				INFOPLIST_FILE = "WFPaymentComponent/WFPaymentComponent-Info.plist";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/WFPaymentComponent/wechat",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = com.dream.zncd.intelligentchargeText;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -550,14 +547,12 @@
 			baseConfigurationReference = BEFFEA21C4B4249603AE8B67 /* Pods-WFPaymentComponent_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = SDV4DZS8RV;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WFPaymentComponent/WFPaymentComponent-Prefix.pch";
 				INFOPLIST_FILE = "WFPaymentComponent/WFPaymentComponent-Info.plist";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/WFPaymentComponent/wechat",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = com.dream.zncd.intelligentchargeText;
 				PRODUCT_NAME = "$(TARGET_NAME)";

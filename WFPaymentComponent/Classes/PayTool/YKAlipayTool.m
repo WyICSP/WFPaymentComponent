@@ -31,7 +31,7 @@
     // NOTE: 将签名成功字符串格式化为订单字符串,请严格按照该格式
     //        NSString *orderString = [NSString stringWithFormat:@"%@&sign=%@",
     //                                 orderInfoEncoded, signedString];
-    NSString *orderString = self.orderNum;
+    NSString *orderString = self.aliPayJson;
     
     // NOTE: 调用支付结果开始支付
     [[AlipaySDK defaultService] payOrder:orderString fromScheme:appScheme callback:^(NSDictionary *resultDic) {
@@ -47,10 +47,10 @@
         //创建支付签名对象
         WXApiRequestHandler *req = [[WXApiRequestHandler alloc]init];
         //初始化支付签名对象
-        [req init:WXAppId mch_id:WeiXinPartnerId];
+        [req init:self.wxAppId mch_id:self.wxPartnerId];
 
         //设置密钥
-        [req setKey:WeiXinPartnerKey];
+        [req setKey:self.wxPartnerKey];
 
         NSString *phoneIP = [self getPhoneIP];//手机IP
         NSString *TradeName = @"商品名";//商品名
@@ -101,19 +101,33 @@
  调起支付的综合方法
  
  @param payType 支付方式
- @param orderNum  订单号
+ @param orderMsg  订单信息
  @param bundleIdentifer 项目的包名
  @param currentViewController  当前的控制器
  */
 - (void)gopayByPayType:(NSString *)payType
-              orderNum:(NSString *)orderNum
+              orderMsg:(NSDictionary *)orderMsg
        bundleIdentifer:(NSString *)bundleIdentifer
  currentViewController:(UIViewController *)currentViewController {
-    self.orderNum = orderNum;
     self.bundleIdentifer = bundleIdentifer;
     if([payType containsString:@"支付宝"]){
+        self.aliPayJson = [NSString stringWithFormat:@"%@",[orderMsg objectForKey:@"aliPayJson"]];
+        if (self.aliPayJson.length == 0) {
+            NSLog(@"支付字符串错误");
+            return;
+        }
         [self gopayForAlipay];
     }else if ([payType containsString:@"微信"]){
+        //appid
+        self.wxAppId = [NSString stringWithFormat:@"%@",[orderMsg objectForKey:@"wxAppId"]];
+        //wxPartnerId
+        self.wxPartnerId = [NSString stringWithFormat:@"%@",[orderMsg objectForKey:@"wxPartnerId"]];
+        //wxPartnerKey
+        self.wxPartnerKey = [NSString stringWithFormat:@"%@",[orderMsg objectForKey:@"wxPartnerKey"]];
+        if (self.wxAppId.length == 0 || self.wxPartnerId.length == 0 || self.wxPartnerKey.length == 0) {
+            NSLog(@"支付字符串错误");
+            return;
+        }
         [self gopayForWeChat];
     }else if ([payType containsString:@"银联"]){
         self.currentVC = currentViewController;

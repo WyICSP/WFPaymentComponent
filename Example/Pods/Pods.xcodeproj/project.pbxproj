@@ -19,20 +19,19 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		280AD2D18C893FEE225A298690489053 /* YKAlipayTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 574026B3A548A13A5DCA257016F8F4C2 /* YKAlipayTool.m */; };
-		3209C7FC1F43648E036D9AAC9E87B34C /* WXApi.h in Headers */ = {isa = PBXBuildFile; fileRef = E672F313AD38AFAE8C8416CC82376E54 /* WXApi.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		42947EDE834755D4476E9DC86F054777 /* WFPaymentHelp.h in Headers */ = {isa = PBXBuildFile; fileRef = BA1CB7EC9900924DFAE372BE66CDEFDF /* WFPaymentHelp.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		48605FCC52345C9D533171614EFECCDC /* YKAlipayTool.h in Headers */ = {isa = PBXBuildFile; fileRef = F97DE1B3DCC484163E0E48E80E21C4CE /* YKAlipayTool.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		61BD906099AFF6A011D40A18F81EBC4B /* README.txt in Sources */ = {isa = PBXBuildFile; fileRef = D718CDCCF2318357445F6C8D4D7374AA /* README.txt */; };
+		083D161AA99D3C5BC591BC20F050F83B /* WXApiRequestHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 037641CDD20F371DEBC349388DBD4EC9 /* WXApiRequestHandler.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3243B6DFB2BB57459E6C85B1EF97CCCE /* WFPaymentHelp.h in Headers */ = {isa = PBXBuildFile; fileRef = BA1CB7EC9900924DFAE372BE66CDEFDF /* WFPaymentHelp.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		51B5FA5FF337F1B54EC9EE822D65FD0E /* WFPaymentComponent-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C102D7FAE70B878B9252AAF6970BABF3 /* WFPaymentComponent-dummy.m */; };
 		62DFC90C94D6911D533CABAC05C3EC0A /* Pods-WFPaymentComponent_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BD5D213B67C754A7B04BC254088642D0 /* Pods-WFPaymentComponent_Example-dummy.m */; };
-		8619A4A8B52EC507FFEB8552B7ED5554 /* WXApiRequestHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 374983E018C54C21782280DF0DDEA1BE /* WXApiRequestHandler.m */; };
+		896CE395B471AA19D9AAF2EABDDDE212 /* YKAlipayTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 402775414B2B4205FF042D8AC35C8CBC /* YKAlipayTool.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		9349958A4FB442FDA5207848BBF9609A /* Pods-WFPaymentComponent_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFB0028543D79C07D53626338AA34C5 /* Pods-WFPaymentComponent_Tests-dummy.m */; };
-		93F52A981D966E69BF8102CA8B3CF67F /* WFPaymentComponent-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C102D7FAE70B878B9252AAF6970BABF3 /* WFPaymentComponent-dummy.m */; };
-		C6CFBF2FB4C633693D74B248B1CCEED3 /* WechatAuthSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 26BD9508B436938945AC82879329CFC3 /* WechatAuthSDK.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		CA052EAFCCCA13DED930EB1D558ED928 /* WXApiObject.h in Headers */ = {isa = PBXBuildFile; fileRef = EE3FBB587D12C4072CE4CAD5A4F8DBE2 /* WXApiObject.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E19469F341CF798EC112D88254AD48B1 /* WXApiRequestHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 3575F168DCE3EF1C35C788E3304F2437 /* WXApiRequestHandler.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		F2C92012483A8CB76EE5A8375F71D020 /* WXUtil.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7651BB572A51DBB3E52828D65B826562 /* WXUtil.mm */; };
-		FCEC1DFBE52B7E12D28544443BEBA78E /* WXUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AB1F979267A2C8D220503DC6A9EE292 /* WXUtil.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A156BFE9EA8A4AF4F2FF11AAE5E646FE /* WechatAuthSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 077320C580D6672F1E6F113FE7128762 /* WechatAuthSDK.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AC8CC2E4AABC256A3ACC8A137653C5DC /* WXApiRequestHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C06BEB2721CFFC611C877BAB9306B8D /* WXApiRequestHandler.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		B8BAA82B5F4E13F3285BBC1D7387269F /* YKAlipayTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF6C26D50A5573CFF2BF0FC145719A4 /* YKAlipayTool.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		DC9CFDB52B2CB1059DECCD7D6573F99F /* WXApiObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 591620108E282E49689901C49DD64BB6 /* WXApiObject.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E3F8FBFFF9D842A9CFF5A8F2CCC469E3 /* WXUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 25E4E8DEB456355BAE4EA1B49A8C3FBE /* WXUtil.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E5D45F610BDC08D4DBBF7DF876659EAD /* WXApi.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A01F8EBC58F7B728B4D609BE87B367B /* WXApi.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		ED5F8C452CA4B60989ABEB14D54FFB58 /* WXUtil.mm in Sources */ = {isa = PBXBuildFile; fileRef = BA0C592FF7ABE0B32158D408159F4698 /* WXUtil.mm */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,19 +42,19 @@
 			remoteGlobalIDString = 8B34F9F12DE1D31C855E1EA857D2698E;
 			remoteInfo = "Pods-WFPaymentComponent_Example";
 		};
+		56F8D6B26AA899784C2DA147BCFFD7BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4847ACB1E2799345AA74D9E317048D58;
+			remoteInfo = "AlipaySDK-iOS";
+		};
 		92C66C156148FD6CA9B1936E1932E6F8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 1AF70F32EDA4EB41096DE5104E54E3DD;
 			remoteInfo = WFPaymentComponent;
-		};
-		9981FB624BB488C622A876CF50353B51 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4847ACB1E2799345AA74D9E317048D58;
-			remoteInfo = "AlipaySDK-iOS";
 		};
 		D656186BAAC4D2FE86B995B68F6E412B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -67,23 +66,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		037641CDD20F371DEBC349388DBD4EC9 /* WXApiRequestHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXApiRequestHandler.h; sourceTree = "<group>"; };
 		04AEFE6D62308AD9C0D55196ED6CB10D /* Pods-WFPaymentComponent_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WFPaymentComponent_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		077320C580D6672F1E6F113FE7128762 /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WechatAuthSDK.h; sourceTree = "<group>"; };
 		0A916001C80B6758EB2D0696F6763BAA /* Pods-WFPaymentComponent_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WFPaymentComponent_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		26BD9508B436938945AC82879329CFC3 /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WechatAuthSDK.h; sourceTree = "<group>"; };
+		1C06BEB2721CFFC611C877BAB9306B8D /* WXApiRequestHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXApiRequestHandler.m; sourceTree = "<group>"; };
+		1FF6C26D50A5573CFF2BF0FC145719A4 /* YKAlipayTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YKAlipayTool.m; sourceTree = "<group>"; };
+		25E4E8DEB456355BAE4EA1B49A8C3FBE /* WXUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXUtil.h; sourceTree = "<group>"; };
 		2C87105AAA6F8858DFA338CB8F289094 /* libWFPaymentComponent.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libWFPaymentComponent.a; path = libWFPaymentComponent.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CE4913DC6BCE4FD2BADC203E709416B /* Pods-WFPaymentComponent_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WFPaymentComponent_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		31FA28E93F120E8ED3BD9A300A30D354 /* WFPaymentComponent.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WFPaymentComponent.xcconfig; sourceTree = "<group>"; };
 		33A875A5386A05B6D683C29B6827231F /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlipaySDK.framework; sourceTree = "<group>"; };
-		3575F168DCE3EF1C35C788E3304F2437 /* WXApiRequestHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXApiRequestHandler.h; sourceTree = "<group>"; };
-		374983E018C54C21782280DF0DDEA1BE /* WXApiRequestHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXApiRequestHandler.m; sourceTree = "<group>"; };
+		3A01F8EBC58F7B728B4D609BE87B367B /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		402775414B2B4205FF042D8AC35C8CBC /* YKAlipayTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YKAlipayTool.h; sourceTree = "<group>"; };
 		427035431706CA80CCED29D0CC465933 /* AlipaySDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
 		47156B48C0C74F48B08C268013E6DC4B /* Pods-WFPaymentComponent_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WFPaymentComponent_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		52135ABA8B3D3B82E3A7025D9C78B72B /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = WFPaymentComponent/Products/libWeChatSDK.a; sourceTree = "<group>"; };
-		574026B3A548A13A5DCA257016F8F4C2 /* YKAlipayTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YKAlipayTool.m; sourceTree = "<group>"; };
+		591620108E282E49689901C49DD64BB6 /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
 		5C7C4548C8457123DF0E0ADBB20F8851 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		71CEDB78E3C52C2B37C766D4E8EF294C /* WFPaymentComponent.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WFPaymentComponent.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		7651BB572A51DBB3E52828D65B826562 /* WXUtil.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = WXUtil.mm; sourceTree = "<group>"; };
-		7AB1F979267A2C8D220503DC6A9EE292 /* WXUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXUtil.h; sourceTree = "<group>"; };
 		82C3303252F76C7465744A62488F8BA5 /* AlipaySDK-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "AlipaySDK-iOS.xcconfig"; sourceTree = "<group>"; };
 		9BFB0028543D79C07D53626338AA34C5 /* Pods-WFPaymentComponent_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WFPaymentComponent_Tests-dummy.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -91,22 +92,19 @@
 		B10E3C03E0C91DE8A370EF6E8C96B87F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		B8234B2028E137F3E92ECD59531D2DF4 /* Pods-WFPaymentComponent_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WFPaymentComponent_Example-resources.sh"; sourceTree = "<group>"; };
 		B8CACD168565D13CA8168690E1993800 /* Pods-WFPaymentComponent_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WFPaymentComponent_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		BA0C592FF7ABE0B32158D408159F4698 /* WXUtil.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = WXUtil.mm; sourceTree = "<group>"; };
 		BA1CB7EC9900924DFAE372BE66CDEFDF /* WFPaymentHelp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WFPaymentHelp.h; sourceTree = "<group>"; };
 		BD5D213B67C754A7B04BC254088642D0 /* Pods-WFPaymentComponent_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WFPaymentComponent_Example-dummy.m"; sourceTree = "<group>"; };
 		C102D7FAE70B878B9252AAF6970BABF3 /* WFPaymentComponent-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WFPaymentComponent-dummy.m"; sourceTree = "<group>"; };
 		CCDC09F32D4D44BA4D3047B3200A849B /* Pods-WFPaymentComponent_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WFPaymentComponent_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D0B3EC1C278B2192093F9614468B2CD9 /* libPods-WFPaymentComponent_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-WFPaymentComponent_Tests.a"; path = "libPods-WFPaymentComponent_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D718CDCCF2318357445F6C8D4D7374AA /* README.txt */ = {isa = PBXFileReference; includeInIndex = 1; path = README.txt; sourceTree = "<group>"; };
-		E672F313AD38AFAE8C8416CC82376E54 /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
 		ECA973F0B59C6AFF9302DB72BFFA418E /* libPods-WFPaymentComponent_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-WFPaymentComponent_Example.a"; path = "libPods-WFPaymentComponent_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EE3FBB587D12C4072CE4CAD5A4F8DBE2 /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
-		F97DE1B3DCC484163E0E48E80E21C4CE /* YKAlipayTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YKAlipayTool.h; sourceTree = "<group>"; };
 		FAA2FA2C98077318BBD272B2A21D2D28 /* Pods-WFPaymentComponent_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WFPaymentComponent_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		FF350DC2DFAE541E3798A63F021F9F98 /* WFPaymentComponent-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WFPaymentComponent-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		588E204BE7C86FDB7E2203A226070540 /* Frameworks */ = {
+		8C622793A1FD65E40BDA6F1630D7CB9B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -135,7 +133,7 @@
 			children = (
 				4E0077A3A299FDA777EB53B6D188B8A9 /* Frameworks */,
 				EF57CD9DCBDF08F676B2EAB15CA87E97 /* PayHeader */,
-				D1B02631E203A0D50EA123CA40CFB76B /* PayTool */,
+				F1165F736D49CA03EF2703222201DEE6 /* PayTool */,
 				8767C844BA8315F5C8BEA2924792D544 /* Pod */,
 				50E11A60C50523CDFE9205F23B5D1D27 /* Support Files */,
 			);
@@ -177,22 +175,6 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		430A3679D3D041B5B161117018B19C7E /* wechat */ = {
-			isa = PBXGroup;
-			children = (
-				D718CDCCF2318357445F6C8D4D7374AA /* README.txt */,
-				26BD9508B436938945AC82879329CFC3 /* WechatAuthSDK.h */,
-				E672F313AD38AFAE8C8416CC82376E54 /* WXApi.h */,
-				EE3FBB587D12C4072CE4CAD5A4F8DBE2 /* WXApiObject.h */,
-				3575F168DCE3EF1C35C788E3304F2437 /* WXApiRequestHandler.h */,
-				374983E018C54C21782280DF0DDEA1BE /* WXApiRequestHandler.m */,
-				7AB1F979267A2C8D220503DC6A9EE292 /* WXUtil.h */,
-				7651BB572A51DBB3E52828D65B826562 /* WXUtil.mm */,
-			);
-			name = wechat;
-			path = wechat;
-			sourceTree = "<group>";
-		};
 		4E0077A3A299FDA777EB53B6D188B8A9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -218,6 +200,21 @@
 				03B2E1E446EAFC09913C13C0910BAB92 /* WFPaymentComponent */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		63A865DFE0E1A5AB70BA4D89C8893B1E /* wechat */ = {
+			isa = PBXGroup;
+			children = (
+				077320C580D6672F1E6F113FE7128762 /* WechatAuthSDK.h */,
+				3A01F8EBC58F7B728B4D609BE87B367B /* WXApi.h */,
+				591620108E282E49689901C49DD64BB6 /* WXApiObject.h */,
+				037641CDD20F371DEBC349388DBD4EC9 /* WXApiRequestHandler.h */,
+				1C06BEB2721CFFC611C877BAB9306B8D /* WXApiRequestHandler.m */,
+				25E4E8DEB456355BAE4EA1B49A8C3FBE /* WXUtil.h */,
+				BA0C592FF7ABE0B32158D408159F4698 /* WXUtil.mm */,
+			);
+			name = wechat;
+			path = wechat;
 			sourceTree = "<group>";
 		};
 		832430EDBC99AB0F9DE1AD987FEECCFD /* Pods-WFPaymentComponent_Example */ = {
@@ -288,17 +285,6 @@
 			);
 			sourceTree = "<group>";
 		};
-		D1B02631E203A0D50EA123CA40CFB76B /* PayTool */ = {
-			isa = PBXGroup;
-			children = (
-				F97DE1B3DCC484163E0E48E80E21C4CE /* YKAlipayTool.h */,
-				574026B3A548A13A5DCA257016F8F4C2 /* YKAlipayTool.m */,
-				430A3679D3D041B5B161117018B19C7E /* wechat */,
-			);
-			name = PayTool;
-			path = WFPaymentComponent/Classes/PayTool;
-			sourceTree = "<group>";
-		};
 		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -325,6 +311,17 @@
 			path = WFPaymentComponent/Classes/PayHeader;
 			sourceTree = "<group>";
 		};
+		F1165F736D49CA03EF2703222201DEE6 /* PayTool */ = {
+			isa = PBXGroup;
+			children = (
+				402775414B2B4205FF042D8AC35C8CBC /* YKAlipayTool.h */,
+				1FF6C26D50A5573CFF2BF0FC145719A4 /* YKAlipayTool.m */,
+				63A865DFE0E1A5AB70BA4D89C8893B1E /* wechat */,
+			);
+			name = PayTool;
+			path = WFPaymentComponent/Classes/PayTool;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -335,24 +332,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		30B57A524C19B7FFDF593EA9649DABDD /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C6CFBF2FB4C633693D74B248B1CCEED3 /* WechatAuthSDK.h in Headers */,
-				42947EDE834755D4476E9DC86F054777 /* WFPaymentHelp.h in Headers */,
-				3209C7FC1F43648E036D9AAC9E87B34C /* WXApi.h in Headers */,
-				CA052EAFCCCA13DED930EB1D558ED928 /* WXApiObject.h in Headers */,
-				E19469F341CF798EC112D88254AD48B1 /* WXApiRequestHandler.h in Headers */,
-				FCEC1DFBE52B7E12D28544443BEBA78E /* WXUtil.h in Headers */,
-				48605FCC52345C9D533171614EFECCDC /* YKAlipayTool.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		EB33164691C51276D554E94D9A2E901C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1E00F3665F0627BF290C7D43D231AC5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A156BFE9EA8A4AF4F2FF11AAE5E646FE /* WechatAuthSDK.h in Headers */,
+				3243B6DFB2BB57459E6C85B1EF97CCCE /* WFPaymentHelp.h in Headers */,
+				E5D45F610BDC08D4DBBF7DF876659EAD /* WXApi.h in Headers */,
+				DC9CFDB52B2CB1059DECCD7D6573F99F /* WXApiObject.h in Headers */,
+				083D161AA99D3C5BC591BC20F050F83B /* WXApiRequestHandler.h in Headers */,
+				E3F8FBFFF9D842A9CFF5A8F2CCC469E3 /* WXUtil.h in Headers */,
+				896CE395B471AA19D9AAF2EABDDDE212 /* YKAlipayTool.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,16 +358,16 @@
 /* Begin PBXNativeTarget section */
 		1AF70F32EDA4EB41096DE5104E54E3DD /* WFPaymentComponent */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E200C70E6EEE44CAF2851A80BAC896B7 /* Build configuration list for PBXNativeTarget "WFPaymentComponent" */;
+			buildConfigurationList = AD06A924877D9D1B0B24C34E9579F4E7 /* Build configuration list for PBXNativeTarget "WFPaymentComponent" */;
 			buildPhases = (
-				30B57A524C19B7FFDF593EA9649DABDD /* Headers */,
-				68B7AE01E74F9C24A0C522E6C0B452FD /* Sources */,
-				588E204BE7C86FDB7E2203A226070540 /* Frameworks */,
+				F1E00F3665F0627BF290C7D43D231AC5 /* Headers */,
+				7E14BCE5A1B1D845223880192E27D02A /* Sources */,
+				8C622793A1FD65E40BDA6F1630D7CB9B /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B2164CFB5B253F7FE4C074BC642A66C0 /* PBXTargetDependency */,
+				0E8164F76E2B4AAAC31AC7AF9E45C856 /* PBXTargetDependency */,
 			);
 			name = WFPaymentComponent;
 			productName = WFPaymentComponent;
@@ -452,15 +449,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		68B7AE01E74F9C24A0C522E6C0B452FD /* Sources */ = {
+		7E14BCE5A1B1D845223880192E27D02A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61BD906099AFF6A011D40A18F81EBC4B /* README.txt in Sources */,
-				93F52A981D966E69BF8102CA8B3CF67F /* WFPaymentComponent-dummy.m in Sources */,
-				8619A4A8B52EC507FFEB8552B7ED5554 /* WXApiRequestHandler.m in Sources */,
-				F2C92012483A8CB76EE5A8375F71D020 /* WXUtil.mm in Sources */,
-				280AD2D18C893FEE225A298690489053 /* YKAlipayTool.m in Sources */,
+				51B5FA5FF337F1B54EC9EE822D65FD0E /* WFPaymentComponent-dummy.m in Sources */,
+				AC8CC2E4AABC256A3ACC8A137653C5DC /* WXApiRequestHandler.m in Sources */,
+				ED5F8C452CA4B60989ABEB14D54FFB58 /* WXUtil.mm in Sources */,
+				B8BAA82B5F4E13F3285BBC1D7387269F /* YKAlipayTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -475,6 +471,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		0E8164F76E2B4AAAC31AC7AF9E45C856 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "AlipaySDK-iOS";
+			target = 4847ACB1E2799345AA74D9E317048D58 /* AlipaySDK-iOS */;
+			targetProxy = 56F8D6B26AA899784C2DA147BCFFD7BA /* PBXContainerItemProxy */;
+		};
 		449DB2A0882A17F36CDDEF127EC3352F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-WFPaymentComponent_Example";
@@ -493,16 +495,10 @@
 			target = 4847ACB1E2799345AA74D9E317048D58 /* AlipaySDK-iOS */;
 			targetProxy = D656186BAAC4D2FE86B995B68F6E412B /* PBXContainerItemProxy */;
 		};
-		B2164CFB5B253F7FE4C074BC642A66C0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "AlipaySDK-iOS";
-			target = 4847ACB1E2799345AA74D9E317048D58 /* AlipaySDK-iOS */;
-			targetProxy = 9981FB624BB488C622A876CF50353B51 /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		6A7EEAA78D7AC9C969A75416BB9D8E8C /* Release */ = {
+		5CE61FEAFC41C1EC11B471746455D984 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 31FA28E93F120E8ED3BD9A300A30D354 /* WFPaymentComponent.xcconfig */;
 			buildSettings = {
@@ -678,7 +674,29 @@
 			};
 			name = Release;
 		};
-		C9BD7D0337876B099E88F01E114C7038 /* Debug */ = {
+		D12A39ABC95C1D3BC1F89F6100B5C065 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCDC09F32D4D44BA4D3047B3200A849B /* Pods-WFPaymentComponent_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1031E40F020A718D760A6DB6646E250 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 31FA28E93F120E8ED3BD9A300A30D354 /* WFPaymentComponent.xcconfig */;
 			buildSettings = {
@@ -701,28 +719,6 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
-		};
-		D12A39ABC95C1D3BC1F89F6100B5C065 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CCDC09F32D4D44BA4D3047B3200A849B /* Pods-WFPaymentComponent_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
 		};
 		E85FC177B3160659FB3C132E8A652206 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -818,20 +814,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		AD06A924877D9D1B0B24C34E9579F4E7 /* Build configuration list for PBXNativeTarget "WFPaymentComponent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1031E40F020A718D760A6DB6646E250 /* Debug */,
+				5CE61FEAFC41C1EC11B471746455D984 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		B074F2D53C2EAD046272D093459E7D56 /* Build configuration list for PBXNativeTarget "Pods-WFPaymentComponent_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E85FC177B3160659FB3C132E8A652206 /* Debug */,
 				D12A39ABC95C1D3BC1F89F6100B5C065 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E200C70E6EEE44CAF2851A80BAC896B7 /* Build configuration list for PBXNativeTarget "WFPaymentComponent" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C9BD7D0337876B099E88F01E114C7038 /* Debug */,
-				6A7EEAA78D7AC9C969A75416BB9D8E8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -6,6 +6,7 @@
 //  Copyright © 2018年 wy. All rights reserved.
 //
 
+
 #import <Foundation/Foundation.h>
 //支付宝
 #import <AlipaySDK/AlipaySDK.h>
@@ -24,32 +25,37 @@ typedef void(^payFailedBlock)(void);
 + (instancetype)shareInstance;
 
 /**
- 支付宝支付
+ 支付宝支付参数
  */
-- (void)gopayForAlipay;
+@property (nonatomic, copy) NSString *aliPayJson;
 
 /**
- 微信支付
- */
-- (void)gopayForWeChat;
-
-/**
- 银联支付
- */
-- (void)gopayUnionpay;
-
-/**
- 订单号
+ 微信预支付订单号
  */
 @property (nonatomic, copy) NSString *orderNum;
 
 /**
-支付方式 Id
+ 微信wxAppId
  */
-@property (nonatomic, copy) NSString *payTypeId;
+@property (nonatomic, copy) NSString *wxAppId;
 
 /**
- 订单总金额
+ 微信wxPartnerId 商户号
+ */
+@property (nonatomic, copy) NSString *wxPartnerId;
+
+/**
+ 微信wxAppSecret
+ */
+@property (nonatomic, copy) NSString *wxAppSecret;
+
+/**
+ 微信wxPartnerKey
+ */
+@property (nonatomic, copy) NSString *wxPartnerKey;
+
+/**
+ 包名
  */
 @property (nonatomic, copy) NSString *bundleIdentifer;
 
@@ -62,12 +68,12 @@ typedef void(^payFailedBlock)(void);
  调起支付的综合方法
 
  @param payType 支付方式
- @param orderNum  订单号
+ @param orderMsg  订单信息
  @param bundleIdentifer 项目的包名
  @param currentViewController  当前的控制器
  */
 - (void)gopayByPayType:(NSString *)payType
-              orderNum:(NSString *)orderNum
+              orderMsg:(NSDictionary *)orderMsg
        bundleIdentifer:(NSString *)bundleIdentifer
  currentViewController:(UIViewController *)currentViewController;
 

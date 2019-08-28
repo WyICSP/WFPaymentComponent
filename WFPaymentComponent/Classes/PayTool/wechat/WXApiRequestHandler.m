@@ -147,7 +147,7 @@
     [packageParams setObject: NOTIFY_URL         forKey:@"notify_url"];  //支付结果异步通知
     [packageParams setObject: orderno            forKey:@"out_trade_no"];//商户订单号
     [packageParams setObject: Ip                 forKey:@"spbill_create_ip"];//发器支付的机器ip
-    [packageParams setObject: order_price        forKey:@"total_fee"];       //订单金额，单位为分
+//    [packageParams setObject: order_price        forKey:@"total_fee"];       //订单金额，单位为分
     
     //获取prepayId（预支付交易会话标识）
     NSString *prePayid = WEprepayId;
