@@ -24,7 +24,7 @@
 
 #pragma mark  支付宝支付
 - (void)gopayForAlipay{
-    // NOTE: 如果加签成功，则继续执行支付
+    // NOTE: 如果加签成功，   则继续执行支付 
     //应用注册scheme,在AliSDKDemo-Info.plist定义URL types
     NSString *appScheme = self.bundleIdentifer;
     

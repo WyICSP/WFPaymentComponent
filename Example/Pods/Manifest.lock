@@ -1,6 +1,6 @@
 PODS:
   - AlipaySDK-iOS (15.5.9)
-  - WFPaymentComponent (0.1.0):
+  - WFPaymentComponent (0.1.1):
     - AlipaySDK-iOS
 
 DEPENDENCIES:
@@ -16,7 +16,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AlipaySDK-iOS: 1c5283b30977a24acecc0114662697f7dc78f618
-  WFPaymentComponent: 5e34b3f042f3e4339f7c4a674f5c256cb3d46ab8
+  WFPaymentComponent: 51ec6e19cf794107d195d8133b361721f339e534
 
 PODFILE CHECKSUM: 92b95ada803bc360f82426f56aed516d370c99fa
 
